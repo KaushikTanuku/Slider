@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: darkgreen;
+}
+
+.item {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 60px;
+    font-weight: bold;
+    background-color: #7CFC00; /* Light Green */
+    transition: background 0.3s;
+}
+
+.active {
+    background-color: darkgreen;
+    color: white;
+}
